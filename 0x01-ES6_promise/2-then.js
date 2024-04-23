@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+
 import getFullResponseAPI from "./1-promise.js";
 
 const responsePromise = getFullResponseAPI(true);
