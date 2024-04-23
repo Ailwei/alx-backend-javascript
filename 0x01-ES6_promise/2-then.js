@@ -1,13 +1,7 @@
-/* eslint-disable no-console */
-
-import getFullResponseAPI from "./1-promise.js";
-
-const responsePromise = getFullResponseAPI(true);
-
-responsePromise
-  .then(response => {
-    console.log(response);
-  })
-  .catch(error => {
-    console.error(error.message);
-  });
+// eslint-disable-next-line no-console
+export default function handleResponseFromAPI(promise) {
+  return promise
+    .then(() => ({ status: 200, body: 'success' }))
+    .catch(() => Error())
+    .finally(() => { console.log('Got a response from the API'); });
+}
