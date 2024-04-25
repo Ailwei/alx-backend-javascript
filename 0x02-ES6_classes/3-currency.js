@@ -1,4 +1,4 @@
-class Currency() {
+export default class Currency() {
 	contructor(code, name) {
 		this._code = code;
 		this._name = name;
