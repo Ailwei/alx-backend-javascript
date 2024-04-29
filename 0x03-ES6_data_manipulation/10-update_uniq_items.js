@@ -1,17 +1,14 @@
-export default function updateUniqueItems(groceriesMap) {
-    if (!(groceriesMap instanceof Map)) {
-        throw new Error('Cannot process');
+/* eslint-disable no-param-reassign */
+export default function updateUniqueItems(givenMap) {
+  if (givenMap instanceof Map) {
+    for (const [key, value] of givenMap) {
+      if (value === 1) {
+        givenMap.set(key, 100);
+      }
     }
 
-    const updatedMap = new Map();
+    return givenMap;
+  }
 
-    groceriesMap.forEach((quantity, item) => {
-        if (quantity === 1) {
-            updatedMap.set(item, 100);
-        } else {
-            updatedMap.set(item, quantity);
-        }
-    });
-
-    return updatedMap;
+  throw new Error('Cannot process');
 }
