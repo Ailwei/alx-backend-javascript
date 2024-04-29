@@ -14,11 +14,12 @@ This project focuses on ES6 data manipulation techniques in JavaScript.
 
 Read or watch:
 
-- [Array](link_to_array_resource)
-- [Typed Array](link_to_typed_array_resource)
-- [Set Data Structure](link_to_set_data_structure_resource)
-- [Map Data Structure](link_to_map_data_structure_resource)
-- [WeakMap](link_to_weakmap_resource)
+- [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- [Typed Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays)
+- [Set Data Structure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
+- [Map Data Structure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
+- [WeakMap](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap)
+
 
 ## Learning Objectives
 
