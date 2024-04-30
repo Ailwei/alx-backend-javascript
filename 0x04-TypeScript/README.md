@@ -10,8 +10,8 @@ This project aims to familiarize you with the basics of TypeScript, including fu
 - Manual QA Review: Request it upon completion
 
 ## Resources
-- [TypeScript in 5 minutes](#)
-- [TypeScript Documentation](#)
+- [TypeScript in 5 minutes](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
 
 ## Learning Objectives
 By completing this project, you will gain proficiency in:
