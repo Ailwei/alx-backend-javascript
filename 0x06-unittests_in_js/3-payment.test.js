@@ -11,8 +11,8 @@ describe('Spy', function () {
 
     sendPaymentRequestToApi(100, 20);
 
-    expect(spyUtils.calledOnceWithExactly('SUM', 50, 20)).to.be.true;
-    expect(spyConsole.calledOnceWithExactly('The total is: 70')).to.be.true;
+    expect(spyUtils.calledOnceWithExactly('SUM', 100, 20)).to.be.true;
+    expect(spyConsole.calledOnceWithExactly('The total is: 120')).to.be.true;
 
     spyUtils.restore();
     spyConsole.restore();
